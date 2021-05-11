@@ -6,14 +6,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Wave Industries & Services</h2>
-	    <p>An Alfred Box company.</p>
+        <div className="App-body">
+          <h1>Wave Industries</h1>
+          <p>Imagine a place with all the products you need. Amazing products that you want to tell your friends about. We can make them for you. </p>
+          <p>Get ready to catch the wave!</p>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
       </div>
     );
   }
